@@ -72,8 +72,8 @@ Here’s an overview of the project’s main files and folders:
 ├── webpage.html             # Frontend HTML for submitting predictions
 ├── classification_test.html # Accuracy metrics created by monitor.py to monitor the model
 ├── data_drift_report.html   # Overview of dataset observability and monitoring
-├── source dataset # Original dataset for training
-├── sample.json # Sample set to test the model
+├── source dataset           # Original dataset for training
+├── sample.json              # Sample set to test the model
 └── README.md                # Project documentation
 ```
 
