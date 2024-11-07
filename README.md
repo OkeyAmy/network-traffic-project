@@ -50,8 +50,11 @@ The following table provides an in-depth explanation of each column in the datas
 
 - **`DDoS-PSH-ACK`**: This label refers to traffic linked to a DDoS attack using both the PSH (Push) and ACK (Acknowledgment) flags in TCP packets. In a DDoS-PSH-ACK attack, the attacker sends numerous PSH-ACK packets to overwhelm the target. The PSH flag is used to request immediate data transmission, while the ACK flag acknowledges receipt of previous packets. This type of attack aims to congest the target network and slow down or prevent legitimate traffic from being processed.
 
+
 ![Raw Data Overview](Raw_Data.png)
+Raw Data Overview
 ![Cleaned Data Overview](Cleaned_Data.png)
+Clean Data Overview
 
 ## Project Structure
 Here’s an overview of the project’s main files and folders:
