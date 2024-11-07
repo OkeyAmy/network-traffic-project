@@ -6,7 +6,7 @@ Welcome to the **Network Traffic Prediction** project! This project leverages ma
 ## Project Diagram
 The architecture diagram below outlines the flow from data ingestion to model deployment and monitoring:
 
-![Architecture Diagram](network-traffic.jpg)
+![Architecture Diagram](mlops.jpg)
 
 ## Project Structure
 Here’s an overview of the project’s key files and folders:

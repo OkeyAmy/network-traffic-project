@@ -94,10 +94,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
-Alternatively, you can use the Makefile:
-```bash
-make setup
-```
+
 
 ### 3. Data Preparation
 Ensure your training and testing datasets are available in the `data` folder. If you have DVC set up, pull the data:
@@ -110,11 +107,6 @@ To train the model, execute:
 ```bash
 python main.py
 ```
-Alternatively, you can use the Makefile:
-```bash
-make run
-```
-This loads, preprocesses, trains the model, and saves it to the `models/` directory.
 
 ### 5. Start the FastAPI Server
 To serve predictions, start the FastAPI application:
