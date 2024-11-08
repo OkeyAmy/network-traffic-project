@@ -1,6 +1,6 @@
 
 # Network Traffic Prediction 📶📊
-[![GitHub](https://img.shields.io/badge/GitHub-code-blue?style=flat&logo=github&logoColor=white&color=red)](https://github.com/prsdm/network-traffic-prediction) [![Medium](https://img.shields.io/badge/Medium-view_article-green?style=flat&logo=medium&logoColor=white&color=green)](https://medium.com/@yourusername/network-traffic-prediction-for-beginners) [![X (formerly Twitter)](https://img.shields.io/badge/X-@okeyamy-1DA1F2?style=flat&logo=twitter&logoColor=white&color=blue)](https://x.com/okey_amy)
+[![GitHub](https://img.shields.io/badge/GitHub-code-blue?style=flat&logo=github&logoColor=white&color=red)](https://github.com/OkeyAmy/network-traffic-project) [![Medium](https://img.shields.io/badge/Medium-view_article-green?style=flat&logo=medium&logoColor=white&color=green)](https://medium.com/@amaobiokeoma) [![X (formerly Twitter)](https://img.shields.io/badge/X-@okeyamy-1DA1F2?style=flat&logo=twitter&logoColor=white&color=blue)](https://x.com/okey_amy)
 
 Welcome to the **Network Traffic Prediction** project! This project aims to classify network traffic to aid in traffic management and security analysis, using a machine learning model deployed with FastAPI.
 
