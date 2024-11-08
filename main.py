@@ -92,8 +92,8 @@ def main_with_mlflow():
         logging.info("Model evaluation completed successfully")
 
         # MLflow tags
-        mlflow.set_tag('Model developer', 'prsdm')
-        mlflow.set_tag('preprocessing', 'OneHotEncoder, Standard Scaler, and MinMax Scaler')
+        mlflow.set_tag('Model developer', 'OkeyAmy')
+        mlflow.set_tag('preprocessing', 'LabelEncoder, Standard Scaler,')
 
         # Logging parameters and metrics
         model_params = config['model'][1]['params']
@@ -105,7 +105,7 @@ def main_with_mlflow():
         mlflow.sklearn.log_model(trainer.pipeline, "model")
 
         # Registering the model
-        model_name = "insurance_model"
+        model_name = "Network Traffic Prediction"
         model_uri = f"runs:/{run.info.run_id}/model"
         mlflow.register_model(model_uri, model_name)
 
