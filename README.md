@@ -137,6 +137,8 @@ This project includes a frontend HTML file (`webpage.html`) for entering network
 2. Enter the necessary network traffic data.
 3. Submit the form to see the prediction on the page.
 
+![Network Prediction](Network_Prediction.png)
+
 Ensure the FastAPI server is running to process requests from the HTML form.
 
 ### 8. Model Monitoring with Evidently AI

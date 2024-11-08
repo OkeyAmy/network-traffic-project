@@ -69,27 +69,3 @@ async def predict(input_data: InputData):
         "predicted_class": predicted_class,
         "class_label": class_label
     }
-
-
-# Example Input for Testing:
-example_input = {
-    "tcp.srcport": 52332,
-    "tcp.dstport": 8000,
-    "ip.proto": 6,
-    "frame.len": 66,
-    "tcp.flags.syn": 0,
-    "tcp.flags.reset": 0,
-    "tcp.flags.push": 0,
-    "tcp.flags.ack": 1,
-    "ip.flags.mf": 0,
-    "ip.flags.df": 1,
-    "ip.flags.rb": 0,
-    "tcp.seq": 1,
-    "tcp.ack": 1,
-    "Packets": 10,
-    "Bytes": 1144,
-    "Tx Packets": 6,
-    "Tx Bytes": 560,
-    "Rx Packets": 4,
-    "Rx Bytes": 584
-}
