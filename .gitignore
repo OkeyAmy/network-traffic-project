@@ -28,7 +28,7 @@ Thumbs.db
 # Other
 .cache/
 
-models/model.pkl
-mlruns/
+# models/model.pkl
+# mlruns/
 
 

@@ -63,8 +63,6 @@ data_drift_report = Report(metrics=custom_metrics)
 # Run the report with the reference and current data
 data_drift_report.run(reference_data=train, current_data=test, column_mapping=column_mapping)
 
-# Display the data drift report (for detailed exploration)
-data_drift_report
 
 # Save the report as HTML (you can view this in the browser)
 data_drift_report.save_html("data_drift_report.html")
